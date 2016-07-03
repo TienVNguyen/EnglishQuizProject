@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2016. Self Training Systems, Inc - All Rights Reserved
+  ~ Unauthorized copying of this file, via any medium is strictly prohibited
+  ~ Proprietary and confidential
+  ~ Written by TienNguyen <tien.workinfo@gmail.com - tien.workinfo@icloud.com>, October 2015
+  -->
+
+<resources>
+    <string name="app_name">英語クイズ</string>
+    <string name="banner">バナー</string>
+    <string name="txt_name">名:</string>
+    <string name="edt_name_hint">社倖一</string>
+    <string name="txt_email">Eメール:</string>
+    <string name="txt_job">ジョブ:</string>
+    <string name="ckb_student">学生</string>
+    <string name="ckb_worker">ワーカー</string>
+    <string name="ckb_developer">ディベロッパー</string>
+    <string name="ckb_engineer">エンジニア</string>
+    <string name="txt_direction">正しい答えを選びなさい</string>
+    <string name="btn_submit">提出します</string>
+    <string name="btn_reset">リセット</string>
+    <string name="error">エラー</string>
+    <string name="again">再試行する</string>
+    <string name="error_name">名前は空にすることはできません!</string>
+    <string name="error_email">メールは空にすることはできません!</string>
+    <string name="error_invalid_email">これは、電子メールの形式でなければなりません!</string>
+    <string name="error_rdb_question">質問 %1$s まだ選択されていません!</string>
+    <string name="error_question6">質問 6 空にすることはできません!</string>
+    <string name="submit_title">情報</string>
+    <string name="submit_email">メールを送る</string>
+    <string name="submit_cancel">キャンセル</string>
+    <string name="submit_question">質問 %1$s :</string>
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2016. Self Training Systems, Inc - All Rights Reserved
+  ~ Unauthorized copying of this file, via any medium is strictly prohibited
+  ~ Proprietary and confidential
+  ~ Written by TienNguyen <tien.workinfo@gmail.com - tien.workinfo@icloud.com>, October 2015
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LinearLayoutInclude"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img_banner"
+        style="@style/ImageViewBasic"
+        android:contentDescription="@string/banner"
+        android:src="@drawable/books" />
+
+    <TextView
+        android:id="@+id/txt_name"
+        style="@style/TextViewBasic"
+        android:text="@string/txt_name" />
+
+    <EditText
+        android:id="@+id/edt_name"
+        style="@style/EditTextBasic"
+        android:hint="@string/edt_name_hint"
+        android:maxLength="30" />
+
+    <TextView
+        android:id="@+id/edt_txt_email"
+        style="@style/TextViewBasic"
+        android:text="@string/txt_email" />
+
+    <EditText
+        android:id="@+id/edt_email"
+        style="@style/EditTextBasic"
+        android:ems="10"
+        android:hint="@string/edt_email_hint"
+        android:inputType="textEmailAddress"
+        android:maxLength="50" />
+
+    <TextView
+        android:id="@+id/txt_job"
+        style="@style/TextViewBasic"
+        android:text="@string/txt_job" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/ckb_student"
+            style="@style/CheckBoxBasic"
+            android:text="@string/ckb_student" />
+
+        <CheckBox
+            android:id="@+id/ckb_worker"
+            style="@style/CheckBoxBasic"
+            android:text="@string/ckb_worker" />
+
+        <CheckBox
+            android:id="@+id/ckb_developer"
+            style="@style/CheckBoxBasic"
+            android:text="@string/ckb_developer" />
+
+        <CheckBox
+            android:id="@+id/ckb_engineer"
+            style="@style/CheckBoxBasic"
+            android:text="@string/ckb_engineer" />
+    </LinearLayout>
+</LinearLayout>

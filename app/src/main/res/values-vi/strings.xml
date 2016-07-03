@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2016. Self Training Systems, Inc - All Rights Reserved
+  ~ Unauthorized copying of this file, via any medium is strictly prohibited
+  ~ Proprietary and confidential
+  ~ Written by TienNguyen <tien.workinfo@gmail.com - tien.workinfo@icloud.com>, October 2015
+  -->
+
+<resources>
+    <string name="app_name">Hỏi đáp tiếng Anh</string>
+    <string name="banner">Khẩu hiệu</string>
+    <string name="txt_name">Tên:</string>
+    <string name="edt_name_hint">Nguyễn Vĩnh Tiến</string>
+    <string name="txt_email">Thư điện tử:</string>
+    <string name="txt_job">Nghề:</string>
+    <string name="ckb_student">Sinh viên</string>
+    <string name="ckb_worker">Công nhân</string>
+    <string name="ckb_developer">Lập trình viên</string>
+    <string name="ckb_engineer">Kỹ sư</string>
+    <string name="txt_direction">Chọn câu trả lời đúng</string>
+    <string name="btn_submit">Nộp</string>
+    <string name="btn_reset">Làm lại</string>
+    <string name="error">Lỗi</string>
+    <string name="again">Thử lại</string>
+    <string name="error_name">Tên không để trống!</string>
+    <string name="error_email">Thư điện tử không để trống!</string>
+    <string name="error_invalid_email">Thư điện tử sai định dạng!</string>
+    <string name="error_rdb_question">Câu %1$s vẫn chưa chọn!</string>
+    <string name="error_question6">Câu 6 đang để trống!</string>
+    <string name="submit_title">Thông tin</string>
+    <string name="submit_email">Chấp nhận</string>
+    <string name="submit_cancel">Không gởi</string>
+    <string name="submit_question">Câu %1$s :</string>
+</resources>

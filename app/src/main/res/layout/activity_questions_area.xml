@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2016. Self Training Systems, Inc - All Rights Reserved
+  ~ Unauthorized copying of this file, via any medium is strictly prohibited
+  ~ Proprietary and confidential
+  ~ Written by TienNguyen <tien.workinfo@gmail.com - tien.workinfo@icloud.com>, October 2015
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LinearLayoutInclude"
+    tools:context=".MainActivity">
+
+    <TextView
+        style="@style/TextViewBasic"
+        android:text="@string/txt_question_1" />
+
+    <TextView
+        style="@style/TextViewHint"
+        android:text="@string/txt_direction" />
+
+    <RadioGroup
+        android:id="@+id/rdb_question_1_answers"
+        style="@style/RadioGroupBasicVertical">
+
+        <RadioButton
+            style="@style/RadioButtonBasic"
+            android:text="@string/rdb_question_1a" />
+
+        <RadioButton
+            style="@style/RadioButtonBasic"
+            android:text="@string/rdb_question_1b" />
+
+        <RadioButton
+            style="@style/RadioButtonBasic"
+            android:text="@string/rdb_question_1c" />
+    </RadioGroup>
+
+    <TextView
+        style="@style/TextViewBasic"
+        android:text="@string/txt_question_2" />
+
+    <TextView
+        style="@style/TextViewHint"
+        android:text="@string/txt_direction" />
+
+    <RadioGroup
+        android:id="@+id/rdb_question_2_answers"
+        style="@style/RadioGroupBasicVertical">
+
+        <RadioButton
+            style="@style/RadioButtonBasic"
+            android:text="@string/rdb_question_2a" />
+
+        <RadioButton
+            style="@style/RadioButtonBasic"
+            android:text="@string/rdb_question_2b" />
+
+        <RadioButton
+            style="@style/RadioButtonBasic"
+            android:text="@string/rdb_question_2c" />
+    </RadioGroup>
+
+
+    <TextView
+        style="@style/TextViewBasic"
+        android:text="@string/txt_question_3" />
+
+    <TextView
+        style="@style/TextViewHint"
+        android:text="@string/txt_direction" />
+
+    <RadioGroup
+        android:id="@+id/rdb_question_3_answers"
+        style="@style/RadioGroupBasicVertical">
+
+        <RadioButton
+            style="@style/RadioButtonBasic"
+            android:text="@string/rdb_question_3a" />
+
+        <RadioButton
+            style="@style/RadioButtonBasic"
+            android:text="@string/rdb_question_3b" />
+
+        <RadioButton
+            style="@style/RadioButtonBasic"
+            android:text="@string/rdb_question_3c" />
+    </RadioGroup>
+
+    <TextView
+        style="@style/TextViewBasic"
+        android:text="@string/txt_question_4" />
+
+    <TextView
+        style="@style/TextViewHint"
+        android:text="@string/txt_direction" />
+
+    <RadioGroup
+        android:id="@+id/rdb_question_4_answers"
+        style="@style/RadioGroupBasicVertical">
+
+        <RadioButton
+            style="@style/RadioButtonBasic"
+            android:text="@string/rdb_question_4a" />
+
+        <RadioButton
+            style="@style/RadioButtonBasic"
+            android:text="@string/rdb_question_4b" />
+
+        <RadioButton
+            style="@style/RadioButtonBasic"
+            android:text="@string/rdb_question_4c" />
+    </RadioGroup>
+
+    <TextView
+        style="@style/TextViewBasic"
+        android:text="@string/txt_question_5" />
+
+    <TextView
+        style="@style/TextViewHint"
+        android:text="@string/txt_direction" />
+
+    <RadioGroup
+        android:id="@+id/rdb_question_5_answers"
+        style="@style/RadioGroupBasicVertical">
+
+        <RadioButton
+            style="@style/RadioButtonBasic"
+            android:text="@string/rdb_question_5a" />
+
+        <RadioButton
+            style="@style/RadioButtonBasic"
+            android:text="@string/rdb_question_5b" />
+
+        <RadioButton
+            style="@style/RadioButtonBasic"
+            android:text="@string/rdb_question_5c" />
+    </RadioGroup>
+
+    <TextView
+        style="@style/TextViewBasic"
+        android:text="@string/txt_question_6" />
+
+    <ImageView
+        android:id="@+id/img_animal"
+        style="@style/ImageViewBasic"
+        android:contentDescription="@string/txt_question_6"
+        android:src="@drawable/dog" />
+
+    <EditText
+        android:id="@+id/edt_question_6"
+        style="@style/EditTextBasic"
+        android:hint="@string/edt_question_6_hint"
+        android:maxLength="10" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_submit"
+            style="@style/ButtonBasic"
+            android:text="@string/btn_submit" />
+
+        <Button
+            android:id="@+id/btn_reset"
+            style="@style/ButtonBasic"
+            android:text="@string/btn_reset" />
+    </LinearLayout>
+</LinearLayout>

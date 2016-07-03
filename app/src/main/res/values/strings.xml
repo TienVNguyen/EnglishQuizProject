@@ -1,0 +1,61 @@
+<!--
+  ~ Copyright (c) 2016. Self Training Systems, Inc - All Rights Reserved
+  ~ Unauthorized copying of this file, via any medium is strictly prohibited
+  ~ Proprietary and confidential
+  ~ Written by TienNguyen <tien.workinfo@gmail.com - tien.workinfo@icloud.com>, October 2015
+  -->
+
+<resources>
+    <string name="app_name">English Quiz</string>
+    <string name="banner">Banner</string>
+    <string name="banner_value">http://blog.mytrustedtutor.com/wp-content/uploads/2015/12/english-collocations-2.jpg</string>
+    <string name="txt_name">Name:</string>
+    <string name="edt_name_hint">Nguyen Vinh Tien</string>
+    <string name="txt_email">Email:</string>
+    <string name="edt_email_hint">tien.workinfo@gmail.com</string>
+    <string name="txt_job">Job:</string>
+    <string name="ckb_student">Student</string>
+    <string name="ckb_worker">Worker</string>
+    <string name="ckb_developer">Developer</string>
+    <string name="ckb_engineer">Engineer</string>
+    <string name="txt_direction">Choose the correct answer</string>
+    <string name="txt_question_1">1/ Enter into a contractual arrangement</string>
+    <string name="rdb_question_1a">Constitute</string>
+    <string name="rdb_question_1b">Contract</string> <!-- YES -->
+    <string name="rdb_question_1c">Derive</string>
+    <string name="txt_question_2">2/ Consider (oneself) as similar to somebody else</string>
+    <string name="rdb_question_2a">Benefit</string>
+    <string name="rdb_question_2b">Analyse</string>
+    <string name="rdb_question_2c">Identify</string> <!-- YES -->
+    <string name="txt_question_3">3/ &#8230; are poor observers of their child\'s behavior so deviant behavior reaches unmanageable proportions.</string>
+    <string name="rdb_question_3a">Parents that</string>
+    <string name="rdb_question_3b">Parents</string> <!-- YES -->
+    <string name="rdb_question_3c">When parents</string>
+    <string name="txt_question_4">4/ Food is, after all, an important part of Chinese culture and mission controllers say it is important &#8230; China\'s space pioneers do not go hungry.</string>
+    <string name="rdb_question_4a">so that</string>
+    <string name="rdb_question_4b">to ensure that</string> <!-- YES -->
+    <string name="rdb_question_4c">make sure</string>
+    <string name="txt_question_5">5/ International trade in the world\'s 20-odd varieties of sturgeon &#8230; by the United Nations since 1998, after a drastic rise in poaching.</string>
+    <string name="rdb_question_5a">has been regulated</string> <!-- YES -->
+    <string name="rdb_question_5b">is controlled</string>
+    <string name="rdb_question_5c">is supported</string>
+    <string name="txt_question_6">6/ What kind of animal is it?</string>
+    <string name="edt_question_6_hint">Dog, cat, duck, bird?</string>
+    <string name="img_question_6">https://womanjp.com/wp-content/uploads/2016/03/nutrious-food-womanjp.jpg</string>
+    <string name="btn_submit">Submit</string>
+    <string name="btn_reset">Reset</string>
+    <string name="error">Error</string>
+    <string name="again">Try again</string>
+    <string name="error_name">Name must not be empty!</string>
+    <string name="error_email">Email must not be empty!</string>
+    <string name="error_invalid_email">Email must be in correct format!</string>
+    <string name="error_rdb_question">Question %1$s still not be chosen!</string>
+    <string name="error_question6">Question 6 must not be empty!</string>
+    <string name="submit_title">Information</string>
+    <string name="submit_email">Ok</string>
+    <string name="submit_cancel">Cancel</string>
+    <string name="submit_question">Question %1$s :</string>
+    <string name="submit_email_subject">Subject of email</string>
+    <string name="submit_email_send">Send mail&#8230;</string>
+    <string name="submit_email_error">There are no email clients installed.</string>
+</resources>
